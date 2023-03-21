@@ -1,0 +1,5 @@
+ADD_SQL = "insert into sinhvien(MaSV, Ho, Ten, NgaySinh, Toan, Ly, Hoa) values (%s,%s,%s,%s,%s,%s,%s)"
+UPDATE_SQL = "update sinhvien set Ho = %s, Ten = %s, NgaySinh = %s, Toan = %s, Ly = %s, Hoa = %s where MaSV = %s"
+DELETE_SQL = "delete from sinhvien where MaSV = %s"
+GET_STUDENT_SQL = "select * from sinhvien where MaSV = %s"
+GET_ALL_SQL = "select * from sinhvien"
